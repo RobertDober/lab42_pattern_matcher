@@ -1,6 +1,6 @@
 $:.unshift( File.expand_path( "../lib", __FILE__ ) )
 require 'lab42/pattern_matcher/version'
-version = Lab42::PatternMatcher::Version
+version = Lab42::PatternMatcher::VERSION
 Gem::Specification.new do |s|
   s.name        = 'lab42_pattern_matcher'
   s.version     = version
@@ -18,7 +18,7 @@ Tailor made for usage in case}
 
 
   s.add_development_dependency 'pry', '~> 0.10'
-  s.add_development_dependency 'pry-byebug', '~> 0.2'
+  s.add_development_dependency 'pry-byebug', '~> 3.4'
   s.add_development_dependency 'rspec', '~> 3.5'
   s.add_development_dependency 'qed', '~> 2.9'
   s.add_development_dependency 'ae', '~> 1.8'

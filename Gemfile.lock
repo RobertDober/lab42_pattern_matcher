@@ -1,0 +1,64 @@
+PATH
+  remote: .
+  specs:
+    lab42_pattern_matcher (0.1.0)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    ae (1.8.2)
+      ansi
+    ansi (1.5.0)
+    brass (1.2.1)
+    byebug (9.0.6)
+    codeclimate-test-reporter (1.0.5)
+      simplecov
+    coderay (1.1.1)
+    diff-lcs (1.3)
+    docile (1.1.5)
+    json (2.0.3)
+    method_source (0.8.2)
+    pry (0.10.4)
+      coderay (~> 1.1.0)
+      method_source (~> 0.8.1)
+      slop (~> 3.4)
+    pry-byebug (3.4.2)
+      byebug (~> 9.0)
+      pry (~> 0.10)
+    qed (2.9.2)
+      ansi
+      brass
+    rspec (3.5.0)
+      rspec-core (~> 3.5.0)
+      rspec-expectations (~> 3.5.0)
+      rspec-mocks (~> 3.5.0)
+    rspec-core (3.5.4)
+      rspec-support (~> 3.5.0)
+    rspec-expectations (3.5.0)
+      diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (~> 3.5.0)
+    rspec-mocks (3.5.0)
+      diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (~> 3.5.0)
+    rspec-support (3.5.0)
+    simplecov (0.13.0)
+      docile (~> 1.1.0)
+      json (>= 1.8, < 3)
+      simplecov-html (~> 0.10.0)
+    simplecov-html (0.10.0)
+    slop (3.6.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  ae (~> 1.8)
+  codeclimate-test-reporter
+  lab42_pattern_matcher!
+  pry (~> 0.10)
+  pry-byebug (~> 3.4)
+  qed (~> 2.9)
+  rspec (~> 3.5)
+
+BUNDLED WITH
+   1.14.3
